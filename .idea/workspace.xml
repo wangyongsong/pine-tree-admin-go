@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6ad2e5-c906-469b-a2f3-4acd13fa6721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6e6ad2e5-c906-469b-a2f3-4acd13fa6721" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +51,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
@@ -83,6 +99,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -105,6 +149,10 @@
       <screen x="49" y="25" width="1631" height="1025" />
     </state>
     <state x="258" y="395" width="771" height="507" key="EnvironmentVariablesDialog/49.25.1631.1025@49.25.1631.1025" timestamp="1618482770554" />
+    <state x="707" y="442" key="Github.ShareDialog" timestamp="1618889686164">
+      <screen x="48" y="25" width="1632" height="1025" />
+    </state>
+    <state x="707" y="442" key="Github.ShareDialog/48.25.1632.1025@48.25.1632.1025" timestamp="1618889686164" />
     <state width="1589" height="202" key="GridCell.Tab.0.bottom" timestamp="1618538905288">
       <screen x="48" y="25" width="1632" height="1025" />
     </state>
@@ -131,6 +179,10 @@
     <state x="371" y="173" key="SettingsEditor/47.25.1633.1025@47.25.1633.1025" timestamp="1618829033038" />
     <state x="372" y="173" key="SettingsEditor/48.25.1632.1025@48.25.1632.1025" timestamp="1618889401256" />
     <state x="373" y="173" key="SettingsEditor/49.25.1631.1025@49.25.1631.1025" timestamp="1618537004164" />
+    <state x="464" y="270" key="Vcs.Push.Dialog.v2" timestamp="1618890358546">
+      <screen x="48" y="25" width="1632" height="1025" />
+    </state>
+    <state x="464" y="270" key="Vcs.Push.Dialog.v2/48.25.1632.1025@48.25.1632.1025" timestamp="1618890358546" />
     <state x="644" y="472" width="439" height="170" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog" timestamp="1618473533316">
       <screen x="49" y="25" width="1631" height="1025" />
     </state>
@@ -139,5 +191,9 @@
       <screen x="49" y="25" width="1631" height="1025" />
     </state>
     <state x="567" y="276" width="595" height="522" key="find.popup/49.25.1631.1025@49.25.1631.1025" timestamp="1618483708540" />
+    <state x="686" y="430" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1618890345117">
+      <screen x="48" y="25" width="1632" height="1025" />
+    </state>
+    <state x="686" y="430" key="git4idea.remote.GitConfigureRemotesDialog/48.25.1632.1025@48.25.1632.1025" timestamp="1618890345117" />
   </component>
 </project>

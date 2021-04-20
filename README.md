@@ -1,4 +1,4 @@
-<h1 align="center">One Tree Admin GO 🌲</h1>
+<h1 align="center">Pine Tree Admin GO 🌲</h1>
 
 ## 🌴‍项目描述
 
