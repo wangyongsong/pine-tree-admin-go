@@ -3,6 +3,7 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"one-tree-admin-go/handle/sd"
 	"one-tree-admin-go/router/middleware"
 )
 
@@ -21,17 +22,30 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	})
 
 	// The health check handlers
-	api := g.Group("/api")
+	apiGroup := g.Group("/api")
 
-	user(api)
+	user(apiGroup)
+	sdFn(g)
 
 	return g
 }
 
 //user
-func user(api *gin.RouterGroup) {
-	user := api.Group("/user")
+func user(group *gin.RouterGroup) {
+	user := group.Group("/user")
 	{
 		user.GET("/info")
+	}
+}
+
+//sd
+func sdFn(engine *gin.Engine) {
+	svcd := engine.Group("/sd")
+
+	{
+		svcd.GET("/health", sd.HealthCheck)
+		svcd.GET("/disk", sd.DiskCheck)
+		svcd.GET("/cpu", sd.CPUCheck)
+		svcd.GET("/ram", sd.RAMCheck)
 	}
 }
