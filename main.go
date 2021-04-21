@@ -2,14 +2,16 @@ package main
 
 import (
 	"errors"
+	"net/http"
+	"time"
+
 	"github.com/gin-gonic/gin"
+	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"log"
-	"net/http"
+
 	"one-tree-admin-go/config"
 	"one-tree-admin-go/router"
-	"time"
 )
 
 var (
@@ -40,11 +42,11 @@ func main() {
 		if err := pingServe(); err != nil {
 			log.Fatal("The router has no response, or it might took too long to start up.", err)
 		}
-		log.Print("The router has been deployed successfully.")
+		log.Info("The router has been deployed successfully.")
 	}()
 
-	log.Printf("Start to listening the incoming requests on http address: %s", viper.GetString("addr"))
-	log.Printf(http.ListenAndServe(viper.GetString("addr"), g).Error())
+	log.Infof("Start to listening the incoming requests on http address: %s", viper.GetString("addr"))
+	log.Info(http.ListenAndServe(viper.GetString("addr"), g).Error())
 }
 
 func pingServe() error {
@@ -53,7 +55,7 @@ func pingServe() error {
 		if err == nil && resp.StatusCode == 200 {
 			return nil
 		}
-		log.Print("Waiting for the router, retry in 1 second.")
+		log.Info("Waiting for the router, retry in 1 second.")
 		time.Sleep(time.Second)
 	}
 
