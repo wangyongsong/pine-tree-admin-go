@@ -15,10 +15,11 @@
 
 
 
-## 🦋业务介绍 🎉🎉🎉
+## 🦋Overview 🎉🎉🎉
 
 - [spf13/viper](https://github.com/spf13/viper) :配置文件读取
 - [lexkong/log](https://github.com/lexkong/log) :日志包
+- [gorm](https://github.com/go-gorm/gorm) : ORM[文档](https://gorm.io/zh_CN/docs/)
 - 
 
 
@@ -32,9 +33,17 @@
 
 
 
-## 🌟Start Help
+## 🌟Getting Started
 
 
 
 ## 🐳Future
+
+
+
+## 👨‍👩‍👦Contributing
+
+
+
+## 📖License
 
